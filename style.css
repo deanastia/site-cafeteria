@@ -1,0 +1,183 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(255, 255, 230);
+} 
+.header-container { 
+    display: flex; 
+    align-items:center; 
+    justify-content:space-between; 
+    background-color: rgb(203, 238, 160); 
+    height: 80px; 
+    min-height: 80px;
+    padding: 0 3%; 
+} 
+.header-container img { 
+    max-height: 90%; 
+} 
+#botaoheader { 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    padding: 18px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s;
+} 
+#botaoheader:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+#botaoimagem { 
+    border-radius:100%; 
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+} 
+#botaoimagem:hover img {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(6%) saturate(1760%) hue-rotate(41deg) brightness(102%) contrast(93%);
+}
+#botaoimagem:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+.botoes-container { 
+    display:flex; 
+    gap:10px; 
+}
+
+.head-display {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    max-height: 0%;
+
+}
+
+img.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;  
+    overflow: hidden;
+}
+
+.main-text {    
+    position:absolute;
+    margin-top:350px;
+    color: white;            
+    font-size: 36px;         
+    font-weight: bold;
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7); 
+    text-align: center;
+}
+img.main-logo {
+    position:absolute;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));         
+}
+.site-body {
+    margin-top:50px;
+}
+h {
+    margin-left:5%;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 28px; 
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card-wrapper{
+    max-width: 1200px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.lista-cards .item-card{
+    list-style:none;
+}
+
+.lista-cards .item-card .link-card {
+    box-shadow: 0px 2px 11px 0px rgba(0,0,0,0.42);
+    display: inline-block;    
+    overflow: hidden;         
+    border-radius: 12px; 
+    max-width: 320px;      
+}
+
+.lista-cards .item-card .link-card:active{
+    cursor: grabbing;
+}
+
+.lista-cards .item-card .link-card .imagem-card {
+    width: 100%;
+    display: block;
+    border-radius:12px;
+    transition: 0.2s ease;
+}
+
+.lista-cards .item-card .link-card .imagem-card:hover {
+   transform: scale(1.02);
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+    opacity: 40%;
+    background: rgb(86,48,26);
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 100%;
+}
+
+.footer {
+    background-color: rgb(86,48,26);
+    display:flex;
+    flex-direction: column;
+    align-items:center; 
+    justify-content:center; 
+}
+
+.botoesfooter{
+    margin-left: 18px;
+    padding: 10px;
+}
+
+#botaofooter {
+    font-family: "Josefin Sans", sans-serif; 
+    font-size:15px;
+    font-weight: 700; 
+    color: rgb(255, 255, 230);
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+#botaofooter:hover{
+    color:white;
+}
+
+
+.footer img{
+    max-width: 10%;
+}
