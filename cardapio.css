@@ -1,0 +1,197 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(255, 255, 230);
+} 
+.header-container { 
+    display: flex; 
+    align-items:center; 
+    justify-content:space-between; 
+    background-color: rgb(203, 238, 160); 
+    height: 80px; 
+    min-height: 80px;
+    padding: 0 3%; 
+    filter: drop-shadow(0px 2px 0px rgba(98, 58, 45, 0.3));
+} 
+.header-container img { 
+    max-height: 90%; 
+} 
+#botaoheader { 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    padding: 18px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s;
+} 
+#botaoheader:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+#botaoimagem { 
+    border-radius:100%; 
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+} 
+#botaoimagem:hover img {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(6%) saturate(1760%) hue-rotate(41deg) brightness(102%) contrast(93%);
+}
+#botaoimagem:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+.botoes-container { 
+    display:flex; 
+    gap:10px; 
+}
+.footer {
+    background-color: rgb(86,48,26);
+}
+.footercontent {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botoesfooter{
+    padding: 40px 0px 30px 0px;
+}
+#botaofooter {
+    padding-left:10px;
+    font-family: "Josefin Sans", sans-serif; 
+    font-size:15px;
+    font-weight: 700; 
+    color: rgb(255, 255, 230);
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+#botaofooter:hover{
+    color:rgb(158, 114, 93);
+}
+.texto-footer{
+    color:rgb(158, 114, 93);
+}
+.footer-logo {
+    margin: 10px;
+    width: 120px;
+}
+#botaoimagemfooter { 
+    border-radius:100%; 
+    background-color: transparent; 
+    border: 2px solid transparent; 
+    filter: brightness(0) saturate(100%) invert(97%) sepia(17%) saturate(722%) hue-rotate(308deg) brightness(107%) contrast(102%); 
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    transition: 0.1s; 
+}
+#botaoimagemfooter:hover {
+    filter: brightness(0) saturate(100%) invert(47%) sepia(7%) saturate(2037%) hue-rotate(334deg) brightness(99%) contrast(84%);
+}
+.categorias{
+    height: 90px;
+    background-color: rgb(214, 171, 145);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    gap:19px;
+}
+.btncategorias{
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    background-color: rgb(255, 255, 230); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    padding: 7px 15px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.7s;
+    filter: drop-shadow(0px 2px 0px rgba(98, 58, 45, 0.3));
+}
+.btncategorias:hover {
+    border-color: rgba(110, 38, 13, 0.459);
+    filter: drop-shadow(0px 0px 0px transparent);
+    -webkit-box-shadow: inset 0px 0px 5px 0.5px rgba(98, 58, 45, 0.3);
+    box-shadow: inset 0px 0px 5px 1px rgba(98, 58, 45, 0.3);
+    background-color: rgb(255, 255, 230);
+    color: rgb(27, 15, 8);
+}
+
+#cafes {
+    margin:90px 0px 0px 0px;
+}
+
+h1{
+    margin:20px 0px 0px 210px;
+    line-height: 50px;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 35px; 
+    color: rgb(86,48,26);
+}
+
+.cafeprodutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+    min-width: 870px;
+    border-bottom: 2px solid rgba(98, 58, 45, 0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.descricao{
+    font-size: 14.5px;
+    margin:0;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 350; 
+    border-radius:30px;
+    color: rgb(158, 114, 93);
+}
+
+.precoproduto {
+    margin:0;
+    font-family: "Josefin Sans", sans-serif; 
+    font-size: 20px;
+    font-weight: 300; 
+    border-radius:30px;
+    color: rgb(86,48,26);
+}
+
+.produtos img {
+    max-width: 100px;
+}
+
+.nomeproduto {
+    margin:0;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    color: rgb(86,48,26);
+}
+
+.produtopreco{
+    margin: 0px 20px 0px 0px;
+    min-width: 135px;
+}

@@ -1,0 +1,398 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    background-color: rgb(255, 255, 230);
+} 
+.header-container { 
+    display: flex; 
+    align-items:center; 
+    justify-content:space-between; 
+    background-color: rgb(203, 238, 160); 
+    height: 80px; 
+    min-height: 80px;
+    padding: 0 3%; 
+    
+} 
+.header-container img { 
+    max-height: 90%; 
+} 
+#botaoheader { 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    padding: 18px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s;
+} 
+#botaoheader:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+#botaoimagem { 
+    border-radius:100%; 
+    background-color: rgb(203, 238, 160); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+} 
+#botaoimagem:hover img {
+    filter: brightness(0) saturate(100%) invert(89%) sepia(6%) saturate(1760%) hue-rotate(41deg) brightness(102%) contrast(93%);
+}
+#botaoimagem:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(203, 238, 160); 
+} 
+.botoes-container { 
+    display:flex; 
+    gap:10px; 
+}
+
+.head-display {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    position: relative; 
+    margin-bottom:0px;
+}
+
+img.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;  
+    overflow: hidden;
+}
+
+.main-text {    
+    position:absolute;
+    margin-top:350px;
+    color: white;            
+    font-size: 36px;         
+    font-weight: bold;
+    font-family: "Reenie Beanie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7); 
+    text-align: center;
+
+}
+img.main-logo {
+    position:absolute;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.5));         
+}
+.site-body {
+    margin-top:50px;
+}
+h {
+    margin-left:5%;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 28px; 
+    
+}
+
+hr {
+    width: 650px;
+    border-color:rgb(214, 171, 145);
+    margin-bottom: 40px;
+}
+
+p {
+    margin:0;
+    line-height: 50px;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 28px; 
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 20px;
+}
+
+.card-wrapper{
+    max-width: 1200px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.lista-cards .item-card{
+    list-style:none;
+}
+
+.lista-cards .item-card .link-card {
+    box-shadow: 0px 5px 5px 1px rgba(89,29,22,0.43);
+    display: inline-block;    
+    overflow: hidden;         
+    border-radius: 12px; 
+    max-width: 320px;      
+}
+
+.lista-cards .item-card .link-card:active{
+    cursor: grabbing;
+}
+
+.lista-cards .item-card .link-card .imagem-card {
+    width: 100%;
+    display: block;
+    border-radius:12px;
+    transition: 0.2s ease;
+}
+
+.textodoscards{
+    padding:10px 0px 0px 30px;
+    position: absolute;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 28px; 
+    color:white;                              
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    z-index: 2; 
+}
+
+.lista-cards .item-card .link-card .imagem-card:hover {
+   transform: scale(1.02);
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 10px;
+    width: 10px;
+    opacity: 40%;
+    background: rgb(86,48,26);
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 100%;
+}
+
+.footer {
+    background-color: rgb(86,48,26);
+}
+
+.footercontent {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoesfooter{
+    padding: 40px 0px 30px 0px;
+}
+
+#botaofooter {
+    padding-left:10px;
+    font-family: "Josefin Sans", sans-serif; 
+    font-size:15px;
+    font-weight: 700; 
+    color: rgb(255, 255, 230);
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+
+#botaofooter:hover{
+    color:rgb(158, 114, 93);
+}
+
+.texto-footer{
+    color:rgb(158, 114, 93);
+}
+
+.footer-logo {
+    margin: 10px;
+    width: 120px;
+}
+
+#botaoimagemfooter { 
+    border-radius:100%; 
+    background-color: transparent; 
+    border: 2px solid transparent; 
+    filter: brightness(0) saturate(100%) invert(97%) sepia(17%) saturate(722%) hue-rotate(308deg) brightness(107%) contrast(102%); 
+    text-align: center; 
+    font-size: 16px; 
+    padding: 10px 10px; 
+    cursor: pointer; 
+    transition: 0.1s; 
+}
+
+#botaoimagemfooter:hover {
+    filter: brightness(0) saturate(100%) invert(47%) sepia(7%) saturate(2037%) hue-rotate(334deg) brightness(99%) contrast(84%);
+}
+
+.gtkucenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gtku{
+    width: 880px;
+    padding-top:30px;
+    margin-top:0px;
+    height:350px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.gtku.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.cleiton2 {
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.cleiton2.is-visible {
+    opacity: 1;
+}
+
+.gtkutext {
+    width: 450px;
+    text-align: center; 
+    text-justify: inter-word;
+}
+
+.keki {
+    padding-left:25px;
+    height:300px;
+}
+
+.homeslider{
+    padding-top:50px;
+    margin-top:40px;
+    background-color: rgb(238, 228, 197);
+}
+
+#botaokeki { 
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700; 
+    border-radius:30px;
+    background-color: rgb(189, 149, 132); 
+    border: 2px solid transparent; 
+    color: rgb(86,48,26); 
+    padding: 18px 20px; 
+    text-align: center; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s;
+} 
+
+#botaokeki:hover { 
+    background-color: rgb(86,48,26); 
+    color: rgb(143, 108, 93); 
+}
+
+.textorestomenu {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containeresto {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardsresto {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(226, 210, 185);
+    width: 400px;
+    height:600px;
+    display: flex;    
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.textocardresto {
+    position: absolute;
+    font-family: "Josefin Sans", sans-serif; 
+    font-weight: 700;
+    font-size: 40px; 
+    color:white;                              
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    z-index: 2; 
+    top: 50%; 
+}
+
+.cardsrestotexto {
+    color: rgb(86,48,26); 
+    margin: 10px 10px 10px 10px;
+    background-color: rgb(226, 210, 185);
+    width: 400px;
+    height:600px;
+    display: flex;    
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardsresto img {
+    filter: brightness(75%);
+    transform: scale(1.05);
+    max-height: 800px;
+    transition: 0.3s;        
+}
+
+.cardsresto:hover img  {
+    transform: scale(1.00);
+    max-height: 800px;        
+}
+
+.cleiton{
+    font-size: 50px;
+}
+
+.blackrestoright{
+    opacity: 0;
+    transform: translateX(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.blackrestoright.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.blackrestoleft{
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.blackrestoleft.is-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+

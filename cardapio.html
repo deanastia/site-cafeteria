@@ -1,0 +1,255 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="cardapio.css">
+  </head> 
+  <body> 
+    <div class="header-container"> 
+                <img src="imgs/cafelogo.png"> 
+                <div class="botoes-container"> 
+                <a href='https://www.google.com/'><button id="botaoheader"> Conheça </button></a>
+                <a href='cardapio.html'><button id="botaoheader"> Cardápio </button></a> 
+                <a href='https://www.google.com/'><button id="botaoheader"> Contato </button></a> 
+                <a href='https://www.whatsapp.com/'> <button id="botaoimagem"> <img src="imgs/icon1.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a>
+                <a href='https://www.youtube.com/'> <button id="botaoimagem"> <img src="imgs/icon2.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a>
+                <a href='https://www.instagram.com/'> <button id="botaoimagem"> <img src="imgs/icon3.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a> 
+                </div> 
+            </div>
+    <div class="categorias">
+        <a href="#cafes"><button class="btncategorias">cafés</button></a>
+        <a href="#bolos"><button class="btncategorias">bolos</button></a>
+        <a href="#chas"><button class="btncategorias">chás</button></a>
+        <a href=""><button class="btncategorias">salgados</button></a>
+        <a href=""><button class="btncategorias">shakes</button></a>
+        <a href=""><button class="btncategorias">doces</button></a>
+    </div>
+
+    <div id="cafes">
+      <h1>CAFÉS</h1>
+      <div class="cafeprodutos">
+        <div class="produtos" id="espresso">
+          <img src="cardapioimgs/Espresso.png" alt="" class="espresso">
+          <div class="produtopreco">
+           <p class="nomeproduto">Espresso</p>
+           <p class="precoproduto">R$ 8,50</p>
+          </div> 
+          <p class="descricao">feito com grãos arábica e água filtrada. Sabor forte e aroma marcante. </p>
+        </div>
+        <div class="produtos"  id="capuccino">
+          <img src="cardapioimgs/Capuccino.png" alt="" class="Capuccino">
+          <div class="produtopreco">
+           <p class="nomeproduto">Cappuccino</p>
+           <p class="precoproduto">R$ 13,50</p>
+          </div> 
+          <p class="descricao">feito com café espresso, leite vaporizado e espuma cremosa. <br>
+             Sabor equilibrado e aroma suave. </p>
+        </div>
+        <div class="produtos" id="affogato">
+          <img src="cardapioimgs/Affogato.png" alt="" class="Affogato">
+          <div class="produtopreco">
+           <p class="nomeproduto">Affogato</p>
+           <p class="precoproduto">R$ 22,00</p>
+          </div> 
+          <p class="descricao">feito com bolas de sorvete de creme e café espresso quente. <br> Combinação simples, doce e intensa. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Americano.png" alt="" class="americano">
+          <div class="produtopreco">
+           <p class="nomeproduto">Americano</p>
+           <p class="precoproduto">R$ 11,00</p>
+          </div> 
+          <p class="descricao">feito com espresso e água quente. Sabor suave e aroma leve. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Latte.png" alt="" class="Latte">
+        <div class="produtopreco">
+           <p class="nomeproduto">Latte</p>
+           <p class="precoproduto">R$ 14,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso e leite vaporizado. Sabor suave e cremoso, com aroma delicado. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Macchiato.png" alt="" class="Macchiato">
+        <div class="produtopreco">
+           <p class="nomeproduto">Macchiato</p>
+           <p class="precoproduto">R$ 14,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso e uma pequena quantidade de espuma de leite. <br>Sabor intenso com toque suave de leite. </p>
+        </div>
+        <div class="produtos" id="mocha">
+          <img src="cardapioimgs/Mocha.png" alt="" class="Mocha">
+        <div class="produtopreco">
+           <p class="nomeproduto">Mocha</p>
+           <p class="precoproduto">R$ 18,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso, leite vaporizado e chocolate. Sabor doce e encorpado, <br>
+            com aroma rico e chocolate presente. </p>
+        </div>
+        <div class="produtos" id="coldbrew">
+          <img src="cardapioimgs/ColdBrew.png" alt="" class="ColdBrew">
+                <div class="produtopreco">
+           <p class="nomeproduto">Cold Brew</p>
+           <p class="precoproduto">R$ 15,50</p>
+          </div> 
+          <p class="descricao">feito com café moído extraído a frio em água filtrada. <br>Sabor suave, refrescante e aroma delicado. </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="bolos">
+      <h1>BOLOS</h1>
+      <div class="cafeprodutos">
+        <div class="produtos">
+          <img src="cardapioimgs/cenoura.png" alt="" class="espresso">
+          <div class="produtopreco">
+           <p class="nomeproduto">Bolo de Cenoura</p>
+           <p class="precoproduto">R$ 15,00</p>
+          </div> 
+          <p class="descricao">massa fofinha de cenoura fresca, ovos e farinha de trigo, finalizada com cobertura cremosa<br> de chocolate. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/choco.png" alt="" class="Capuccino">
+          <div class="produtopreco">
+           <p class="nomeproduto">Bolo de Chocolate</p>
+           <p class="precoproduto">R$ 15,00</p>
+          </div> 
+          <p class="descricao">massa macia de chocolate, ovos e farinha de trigo, coberta com ganache cremosa de chocolate. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/marmore.png" alt="" class="Affogato">
+          <div class="produtopreco">
+           <p class="nomeproduto">Bolo Mármore</p>
+           <p class="precoproduto">R$ 11,00</p>
+          </div> 
+          <p class="descricao">delicada mistura de massa de chocolate e baunilha, ovos e  farinha de trigo, fofinho e macio,<br> sem cobertura. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/integral.png" alt="" class="americano">
+          <div class="produtopreco">
+           <p class="nomeproduto">Bolo Integral</p>
+           <p class="precoproduto">R$ 14,50</p>
+          </div> 
+          <p class="descricao">massa nutritiva de farinha integral, ovos e óleo, adoçada naturalmente, perfeita para um <br> sabor mais saudável. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/brownie.png" alt="" class="Latte">
+        <div class="produtopreco">
+           <p class="nomeproduto">Brownie</p>
+           <p class="precoproduto">R$ 9,00</p>
+          </div> 
+          <p class="descricao">quadrado de chocolate intenso, manteiga e ovos, com textura macia por dentro e levemente <br> crocante por fora. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/redvelvet.png" alt="" class="Macchiato">
+        <div class="produtopreco">
+           <p class="nomeproduto">Bolo Red Velvet</p>
+           <p class="precoproduto">R$ 22,00</p>
+          </div> 
+          <p class="descricao">massa vermelha macia com toque de cacau, ovos e farinha, finalizada com cobertura cremosa<br> de cream cheese. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/cheese.png" alt="" class="Mocha">
+        <div class="produtopreco">
+           <p class="nomeproduto">Cheesecake</p>
+           <p class="precoproduto">R$ 25,00</p>
+          </div> 
+          <p class="descricao">base crocante de biscoito com recheio cremoso de cream cheese e toque delicado de açúcar, <br>servido com cobertura de frutas ou calda de chocolate. </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="chas">
+      <h1>CHÁS</h1>
+      <div class="cafeprodutos">
+        <div class="produtos" id="espresso">
+          <img src="cardapioimgs/Espresso.png" alt="" class="espresso">
+          <div class="produtopreco">
+           <p class="nomeproduto">Espresso</p>
+           <p class="precoproduto">R$ 8,50</p>
+          </div> 
+          <p class="descricao">feito com grãos arábica e água filtrada. Sabor forte e aroma marcante. </p>
+        </div>
+        <div class="produtos"  id="capuccino">
+          <img src="cardapioimgs/Capuccino.png" alt="" class="Capuccino">
+          <div class="produtopreco">
+           <p class="nomeproduto">Cappuccino</p>
+           <p class="precoproduto">R$ 13,50</p>
+          </div> 
+          <p class="descricao">feito com café espresso, leite vaporizado e espuma cremosa. <br>
+             Sabor equilibrado e aroma suave. </p>
+        </div>
+        <div class="produtos" id="affogato">
+          <img src="cardapioimgs/Affogato.png" alt="" class="Affogato">
+          <div class="produtopreco">
+           <p class="nomeproduto">Affogato</p>
+           <p class="precoproduto">R$ 22,00</p>
+          </div> 
+          <p class="descricao">feito com bolas de sorvete de creme e café espresso quente. <br> Combinação simples, doce e intensa. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Americano.png" alt="" class="americano">
+          <div class="produtopreco">
+           <p class="nomeproduto">Americano</p>
+           <p class="precoproduto">R$ 11,00</p>
+          </div> 
+          <p class="descricao">feito com espresso e água quente. Sabor suave e aroma leve. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Latte.png" alt="" class="Latte">
+        <div class="produtopreco">
+           <p class="nomeproduto">Latte</p>
+           <p class="precoproduto">R$ 14,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso e leite vaporizado. Sabor suave e cremoso, com aroma delicado. </p>
+        </div>
+        <div class="produtos">
+          <img src="cardapioimgs/Macchiato.png" alt="" class="Macchiato">
+        <div class="produtopreco">
+           <p class="nomeproduto">Macchiato</p>
+           <p class="precoproduto">R$ 14,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso e uma pequena quantidade de espuma de leite. <br>Sabor intenso com toque suave de leite. </p>
+        </div>
+        <div class="produtos" id="mocha">
+          <img src="cardapioimgs/Mocha.png" alt="" class="Mocha">
+        <div class="produtopreco">
+           <p class="nomeproduto">Mocha</p>
+           <p class="precoproduto">R$ 18,00</p>
+          </div> 
+          <p class="descricao">feito com café espresso, leite vaporizado e chocolate. Sabor doce e encorpado, <br>
+            com aroma rico e chocolate presente. </p>
+        </div>
+        <div class="produtos" id="coldbrew">
+          <img src="cardapioimgs/ColdBrew.png" alt="" class="ColdBrew">
+                <div class="produtopreco">
+           <p class="nomeproduto">Cold Brew</p>
+           <p class="precoproduto">R$ 15,50</p>
+          </div> 
+          <p class="descricao">feito com café moído extraído a frio em água filtrada. <br>Sabor suave, refrescante e aroma delicado. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footercontent">
+        <div class="footer-logo">
+        <img src="imgs/cafelogofooter.png" alt="Logo do Café" class="footer-logo">
+        </div>
+        <div class="botoesfooter">
+          <a href='index.html'><button id="botaofooter"> Home </button></a>
+          <a href='cardapio.html'><button id="botaofooter"> Cardápio </button></a>
+          <a href='https://www.google.com/'><button id="botaofooter"> Contato </button></a>
+        </div>
+        <div class="botoesimg">
+          <a href='https://www.whatsapp.com/'> <button id="botaoimagemfooter"> <img src="imgs/icon1.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a>
+          <a href='https://www.youtube.com/'> <button id="botaoimagemfooter"> <img src="imgs/icon2.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a>
+          <a href='https://www.instagram.com/'> <button id="botaoimagemfooter"> <img src="imgs/icon3.svg" alt="Ícone" width="32" height="28" fill="currentColor"> </button></a> 
+        </div>
+      </div>
+    </div>
+  </body> 
+</html>
