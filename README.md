@@ -7,9 +7,9 @@ Em desenvolvimento
 Algumas funcionalidades ainda estão sendo implementadas e outras serão alteradas.
 
 Tecnologias Utilizadas:
-HTML5 → Estrutura das páginas
-CSS→ Estilização e layout responsivo
-JavaScript → Interações e dinamismo
+HTML5: Estrutura das páginas
+CSS: Estilização e layout responsivo
+JavaScript: Interações e dinamismo
 Google Fonts
 
 Objetivo do Projeto
